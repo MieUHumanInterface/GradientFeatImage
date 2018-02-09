@@ -10,4 +10,4 @@ To compile the program, just type
 
 ## Running
 Usage of the program is  
-`./GradientImage [image file]`
+`./GradientImage [image file] [widthxheight]`
