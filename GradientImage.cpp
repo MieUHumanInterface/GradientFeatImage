@@ -368,7 +368,7 @@ int main ( int argc, char *argv[] )
   Geometry geom ( argv[2] );
 	
   // Image after Cropping and size normalization
-  //image.size_normalization ( geom );
+  // image.size_normalization ( geom );
 
 	image.scale(geom);
 	
@@ -419,7 +419,7 @@ int main ( int argc, char *argv[] )
 			;
 		}
 
-  image.display();
+  // image.display();
   
   //image.write ( fname_smth );
   
