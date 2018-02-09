@@ -11,3 +11,14 @@ To compile the program, just type
 ## Running
 Usage of the program is  
 `./GradientImage [image file] [widthxheight]`
+
+for example,  
+`./GradientImage sample.png 600x680`
+
+The program outputs 5 sample images
+
+* 01org_[sample.png]: Original image
+* 02norm_[sample.png]: resized image
+* 03smth_[sample.png]: smoothed image
+* 04cano_[sample.png]: image after canonicalzation
+* 05grad_[sample.png]: gradient image
